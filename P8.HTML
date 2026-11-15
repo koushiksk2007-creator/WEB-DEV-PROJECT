@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <style>
+         
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+
+.navbar {
+  position: sticky; 
+  top: 0;           
+  z-index: 1000;    
+  background-color: #333;
+  
+}
+p{
+  min-height: 1000px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+
+
+
+
+.card-overlay-wrapper {
+  position: relative;
+  height: 400px; 
+  margin: 2px 0;
+}
+
+
+.card {
+  position: sticky;
+  top: 80px; 
+  background: #1e2b9f;
+  color: #ffffff;
+  padding: 2px;
+  border-radius: 8px;
+  z-index: 10;
+}
+p{
+    
+}
+.long-content {
+  height: 800px; 
+  background-color: #f4f4f4;
+  padding: 2px;
+  margin-top: 2px;
+}
+
+        </style>
+        <title>
+            sticky nav bar
+        </title>
+        <body>
+            <nav class="navbar">
+  <h2>My Website</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
+
+
+<main class="container">
+  
+
+  <section class="content-section">
+    <h1>Scroll down to see the card overlay</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </section>
+
+
+  <div class="card-overlay-wrapper">
+    <div class="card">
+      <h3>Overlay Card</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt suscipit recusandae magni obcaecati vero dignissimos veritatis iste veniam ipsam voluptates labore repellendus amet fugit ipsa, accusantium minima quasi ad. Consequuntur!</p>
+    </div>
+  </div>
+
+ 
+
+</main>
+
+        </body>
+    </head>
+</html>

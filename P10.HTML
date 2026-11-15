@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #eaeef4;
+}
+
+
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background-color: #0b2254;
+    color:white;
+}
+
+
+
+.navbar{
+    display:flex;
+    gap:30px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.footer {
+    background-color: #14213d;
+    color:white;
+    padding: 45px  15px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap: 40px;
+    flex-wrap:wrap;
+}
+
+.footer-about {
+    flex: 2;
+}
+
+.footer-links,
+.footer-social {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer h3 {
+    margin-bottom: 8px;
+    color: #fca311;
+}
+
+.footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fca311;
+}
+
+.footer-about p {
+    margin-top: 12px;
+    line-height: 1.6;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid #526078;
+    margin-top: 35px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+    .header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+
+        </style>
+        <title>
+            PORTFOLOIO HEADER AND  FOOTER WITH ADVANCED FLEXBOX
+        </title>
+    </head>
+    <body>
+       
+    <header class="header">
+        <h2 class="logo">Koushik.</h2>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+  
+    <main>
+        <section class="hero" id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Koushik, a Computer Science Student.</p>
+        </section>
+    </main>
+
+ 
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h2>Koushik.</h2>
+                <p>Learning, building and exploring
+                   the world of technology.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+            </div>
+
+            <div class="footer-social">
+                <h3>Connect With Me</h3>
+                <a href="https://github.com/">GitHub</a>
+                <a href="https://linkedin.com/">LinkedIn</a>
+                <a href="mailto:your-email@example.com">Email</a>
+            </div>
+
+
+            <p>© 2026 Koushik. All Rights Reserved.</p>
+       
+
+    </footer>
+        
+    </body>
+</html>

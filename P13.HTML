@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+body{
+    font-family:Arial;
+    margin:0;
+}
+
+
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:navy;
+    color:white;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+
+main{
+    padding:30px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+}
+
+.box{
+    background-color:lightblue;
+    padding:25px;
+    text-align:center;
+}
+
+
+
+footer{
+    background-color:navy;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+    </style>
+    <title>Flexbox and Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>My Projects</h2>
+
+        <section class="container">
+
+            <div class="box">
+                <h3>Portfolio</h3>
+                <p>My personal website.</p>
+            </div>
+
+            <div class="box">
+                <h3>Food Picker</h3>
+                <p>A food selection website.</p>
+            </div>
+
+            <div class="box">
+                <h3>News Website</h3>
+                <p>A newspaper-style website.</p>
+            </div>
+
+        </section>
+
+ 
+
+  
+
+</body>
+</html>
